@@ -1,9 +1,8 @@
 #!/usr/bin/python
 #coding=utf-8
 #
-# Generate DLL Hijack source code file(.cpp)
 #
-# author:Coca1ne
+# PE Test
 #
 #
 
@@ -62,7 +61,6 @@ namespace DLLHijacker\
 	{\
 		FARPROC fpAddress;\
 		CHAR szProcName[16];\
-		TCHAR tzTemp[MAX_PATH];\
 		fpAddress = GetProcAddress(m_hModule, pszProcName);\
 		if (fpAddress == NULL)\
 		{\
