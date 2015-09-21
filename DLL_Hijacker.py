@@ -1,10 +1,10 @@
-#!/usr/bin/python
 #coding=utf-8
 #
+# Dll Hijacker
 #
-# PE Test
+# platform: Python 2.x @ Windows 
 #
-#
+# author:Coca1ne
 
 import os,sys,time
 import pefile
